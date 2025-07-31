@@ -30,7 +30,7 @@ export default function Contact() {
           <img
             src="/contact/linkedin.png"
             alt="LinkedIn icon"
-            className="h-6 w-6 flex-shrink-0"
+            className="h-6 w-6 object-cover"
             loading="lazy"
           />
           <a
@@ -48,11 +48,11 @@ export default function Contact() {
           <img
             src="/contact/instagram.png"
             alt="Instagram icon"
-            className="h-6 w-6 flex-shrink-0"
+            className="h-6 w-6 object-cover"
             loading="lazy"
           />
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/sidd_chavan_05/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline focus:outline-none focus:ring-2 focus:ring-[#ECF0F1] rounded"

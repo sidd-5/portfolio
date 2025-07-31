@@ -22,6 +22,13 @@ export default function Skills() {
           { src: "/skills/react.png", alt: "React.js", label: "React.js" },
           { src: "/skills/next.jpg", alt: "Next.js", label: "Next.js" },
           { src: "/skills/node.png", alt: "Node.js", label: "Node.js" },
+          { src: "/skills/tailwind.png", alt: "Tailwind CSS", label: "Tailwind CSS" },
+          { src: "/skills/wordpress.png", alt: "WordPress", label: "WordPress" },
+          { src: "/skills/figma.png", alt: "Figma", label: "Figma" },
+          { src: "/skills/express.png", alt: "Express.js", label: "Express.js" },
+          { src: "/skills/mongodb.png", alt: "MongoDB", label: "MongoDB" },
+          { src: "/skills/git.png", alt: "Git", label: "Git" },
+          { src: "/skills/github.png", alt: "GitHub", label: "GitHub" },
         ].map(({ src, alt, label }) => (
           <div
             key={label}

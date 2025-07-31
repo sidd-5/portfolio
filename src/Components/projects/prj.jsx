@@ -14,13 +14,6 @@ const projects = [
     demo: "#",
   },
   {
-    title: "Amazon Clone",
-    description:
-      "Fully functional e-commerce clone of Amazon with product listings, dynamic cart, checkout page, and integrated payment gateway simulation.",
-    github: "#",
-    demo: "#",
-  },
-  {
     title: "Bhoomi Jewellery",
     description:
       "A beautifully crafted website for a jewellery business featuring a product gallery, enquiry form, and mobile-optimized layout for seamless shopping experience.",
@@ -63,7 +56,7 @@ export default function ProjectsSection() {
             >
               <h3 className="text-2xl md:text-3xl font-semibold mb-4">{project.title}</h3>
               <p className="mb-6 text-base md:text-lg leading-relaxed">{project.description}</p>
-              <div className="flex flex-wrap gap-4">
+              {/* <div className="flex flex-wrap gap-4">
                 <a
                   href={project.github}
                   target="_blank"
@@ -80,7 +73,7 @@ export default function ProjectsSection() {
                 >
                   Live Demo
                 </a>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

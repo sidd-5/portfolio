@@ -20,7 +20,7 @@ export default function About() {
           <img
             src="/image-og.png"
             alt="Siddhesh Chavan"
-            className="rounded-xl object-cover max-h-[300px] sm:max-h-[400px] w-full md:w-auto"
+            className="rounded-xl object-cover max-h-[350px] sm:max-h-[450px] w-full md:w-auto"
           />
         </div>
       </div>
