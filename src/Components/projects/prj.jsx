@@ -45,38 +45,45 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <section id="prj" className="flex bg-[#BDC3C7] text-white min-h-screen">
-      {/* Left Side: Fixed Title */}
-      <div className="w-1/3 h-screen sticky top-0 flex items-center justify-center p-8">
-        <h2 className="text-8xl font-bold">Projects</h2>
-      </div>
+    <section id="prj" className="bg-[#BDC3C7] text-[#2C3E50] min-h-screen px-6 py-16">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10">
+        {/* Left Side: Sticky Title on md and larger */}
+        <div className="md:w-1/3 md:h-screen md:sticky md:top-0 flex items-center justify-center">
+          <h2 className="text-6xl md:text-8xl font-bold select-none text-[#34495E] text-center md:text-left whitespace-nowrap">
+            Projects
+          </h2>
+        </div>
 
-      {/* Right Side: Scrollable Cards */}
-      <div className="w-2/3 flex flex-col gap-10 py-16 px-8">
-        {projects.map((project, index) => (
-          <div key={index} className="bg-[#ECF0F1] p-8 ml-72 h-auto rounded-xl shadow-md">
-            <h3 className="text-3xl text-[#2C3E50] font-semibold mb-4">{project.title}</h3>
-            <p className="text-[#2C3E50] mb-6">{project.description}</p>
-            <div className="flex gap-4">
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-2 bg-[#34495E] hover:bg-[#2C3E50] text-[#ECF0F1] rounded-md transition"
-              >
-                GitHub Repo
-              </a>
-              <a
-                href={project.demo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-2 bg-[#34495E] hover:bg-[#2C3E50] text-[#ECF0F1] rounded-md transition"
-              >
-                Live Demo
-              </a>
+        {/* Right Side: Project Cards */}
+        <div className="md:w-2/3 flex flex-col gap-10">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300"
+            >
+              <h3 className="text-2xl md:text-3xl font-semibold mb-4">{project.title}</h3>
+              <p className="mb-6 text-base md:text-lg leading-relaxed">{project.description}</p>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-2 bg-[#34495E] hover:bg-[#2C3E50] text-[#ECF0F1] rounded-md transition"
+                >
+                  GitHub Repo
+                </a>
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-2 bg-[#34495E] hover:bg-[#2C3E50] text-[#ECF0F1] rounded-md transition"
+                >
+                  Live Demo
+                </a>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );
