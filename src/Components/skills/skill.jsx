@@ -18,7 +18,7 @@ export default function Skills() {
         {[
           { src: "/skills/html.png", alt: "HTML", label: "HTML" },
           { src: "/skills/css.png", alt: "CSS", label: "CSS" },
-          { src: "/skills/javascript.png", alt: "JavaScript", label: "JavaScript" },
+          { src: "/skills/JavaScript.png", alt: "JavaScript", label: "JavaScript" },
           { src: "/skills/react.png", alt: "React.js", label: "React.js" },
           { src: "/skills/next.jpg", alt: "Next.js", label: "Next.js" },
           { src: "/skills/node.png", alt: "Node.js", label: "Node.js" },
