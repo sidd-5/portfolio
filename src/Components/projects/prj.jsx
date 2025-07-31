@@ -7,6 +7,28 @@ const projects = [
     demo: "#",
   },
   {
+  title: "MediMeet",
+  description:
+    "A doctor appointment booking platform that allows patients to schedule visits, manage medical records, receive appointment reminders, and consult via secure video calls. Includes doctor directories, availability calendars, and responsive mobile experience.",
+  github: "#",
+  demo: "#",
+},
+{
+  title: "Ralph Lauren Clone",
+  description:
+    "A high-fidelity e-commerce front-end inspired by Ralph Lauren’s official website, featuring luxury product displays, lookbook galleries, advanced filtering, responsive layouts, and seamless shopping cart experience.",
+  github: "#",
+  demo: "#",
+},
+{
+  title: "Hostel Management System",
+  description:
+    "A complete web solution for managing hostel admissions, room allocation, fee payments, complaints, and announcements. Features role-based dashboards for administrators, wardens, and residents with mobile-optimized design.",
+  github: "#",
+  demo: "#",
+}
+,
+  {
     title: "Mercedes Clone",
     description:
       "A high-fidelity front-end clone of the Mercedes-Benz official website. Features luxury-themed UI, car models showcase, interactive sliders, and responsive layout.",
